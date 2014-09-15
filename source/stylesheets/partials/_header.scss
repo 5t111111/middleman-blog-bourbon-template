@@ -13,7 +13,7 @@ header {
   background-size: cover;
   padding-bottom: 4em;
 
-  color: $header-color;
+
   text-align: center;
 
   height: 80px;
@@ -28,11 +28,11 @@ header {
     font-size: 24px;
     font-weight: 100;
     text-shadow: 0 0 12px lighten($header-color, 10);
-    padding: 10px 0 5px 0;
+    padding: 10px 0 4px 0;
 
     @include media($medium-screen-up) {
       font-size: 64px;
-      padding: 90px 0 32px 0;
+      padding: 90px 0 28px 0;
     }
 
     a, a:hover {
@@ -46,14 +46,20 @@ header {
     li {
       display: inline-block;
       font-size: 1em;
-      padding-right: 1.0em;
+      padding-right: .4em;
+
+      @include media($medium-screen-up) {
+        font-size: 2em;
+        padding-right: .8em;
+      }
 
       &:last-child {
         padding-right: 0;
       }
     }
 
-    img {
+    a {
+      color: $header-color;
       opacity: .7;
       height: 1.6em;
       padding: 1px;
