@@ -6,6 +6,13 @@ This is a [middleman](http://middlemanapp.com) template styled with [Bourbon](ht
 
 ![screenshot.jpg](https://raw.githubusercontent.com/5t111111/middleman-blog-bourbon-template/master/screenshot.jpg)
 
+## Features
+
+- [Slim](http://slim-lang.com) as template engine.
+- Syntax highlighting with [middleman-syntax](https://github.com/middleman/middleman-syntax) (using [rouge](https://github.com/jneen/rouge))
+- Responsive layout with Neat grid system.
+- Live reload with middleman-livereload
+
 ## Quickstart
 
 ### Clone this tempalate to your machine
