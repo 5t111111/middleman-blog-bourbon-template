@@ -21,3 +21,19 @@ $ cd my-fantastic-blog/source/stylesheets
 $ bundle exec bitters install
 ```
 
+### Enable Neat grid system in bitters' settings
+
+Uncomment the below line in `source/stylesheets/base/_base.scss`
+
+```scss
+// Neat Settings -- uncomment if using Neat -- must be imported before Neat$
+// @import 'grid-settings';$
+```
+
+### Start Middleman server
+
+```console
+$ bundle exec middleman
+```
+
+Open `http://localhost:4567` in a web browser.
