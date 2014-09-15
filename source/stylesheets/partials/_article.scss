@@ -1,0 +1,40 @@
+article {
+
+  padding: 0 12px 0 12px;
+
+  h1 {
+    margin: 20px 0 10px 0;
+  }
+
+  .tag-labels {
+    $tag-label-background: $medium-gray;
+    $tag-label-font-color: white;
+    $tag-label-font-size: $base-font-size * .75;
+  
+    display: block;
+    margin-bottom: $base-line-height;
+  
+    .tag-label {
+      background: $tag-label-background;
+      border-radius: 2em;
+      color: $tag-label-font-color;
+      font-size: $tag-label-font-size;
+      font-weight: 600;
+      line-height: 1;
+      padding: .25em 1em;
+      text-align: center;
+      margin-right: .4em;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  .posted-date {
+    $posted-date-image: "/images/time-glyph-icon.png";
+    @include background(url($posted-date-image), no-repeat);
+    background-repeat: no-repeat;
+    padding-left: 24px;
+  }
+}

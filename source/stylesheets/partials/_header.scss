@@ -1,0 +1,52 @@
+header {
+
+  $header-background-top: darken($base-accent-color, 25);
+  $header-background-bottom: adjust-hue($header-background-top, -70);
+  $header-color: #d9d9d9;
+  $gradient-angle: 10deg;
+  $header-image: "/images/mountains.png";
+
+  @include background(url($header-image), linear-gradient($gradient-angle, $header-background-bottom, $header-background-top), no-repeat $header-background-top scroll);
+
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  padding-bottom: 4em;
+
+  color: $header-color;
+  text-align: center;
+
+  height: 300px;
+  margin-bottom: 20px;
+
+  h1 {
+    font-weight: 100;
+    font-size: 64px;
+    text-shadow: 0 0 12px lighten($header-color, 10);
+    padding: 90px 0 32px 0;
+  }
+
+  ul.header-social {
+    list-style-type: none;
+
+    li {
+      display: inline-block;
+      font-size: 1em;
+      padding-right: 1.0em;
+
+      &:last-child {
+        padding-right: 0;
+      }
+    }
+
+    img {
+      opacity: .7;
+      height: 1.6em;
+      padding: 1px;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+}

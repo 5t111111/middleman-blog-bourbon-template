@@ -1,0 +1,32 @@
+---
+pageable: true
+per_page: 10
+--- 
+- if paginate && num_pages > 1
+  p
+    | Page 
+    = page_number
+    |  of 
+    = num_pages
+  - if prev_page
+    p
+      = link_to 'Previous page', prev_page
+- page_articles.each_with_index do |article, i|
+  h1
+    = link_to article.title, article
+  .tag-labels
+    - article.tags.each do |tag|
+      small.tag-label
+        = tag
+  hr
+  p  
+    span.posted-date
+      | Posted on 
+      = article.date.strftime('%b %e, %Y')
+  hr
+  = article.body
+  hr
+- if paginate
+  - if next_page
+    p
+      = link_to 'Next page', next_page

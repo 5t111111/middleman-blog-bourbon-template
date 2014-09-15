@@ -1,0 +1,12 @@
+footer {
+  $footer-font-size: 0.8em;
+  $footer-font-color: lighten($base-font-color, 20);
+
+  text-align: center;
+  color: $footer-font-color;
+  margin-top: 1.0em;
+  margin-bottom: 2.0em;
+  p {
+    font-size: $footer-font-size;
+  }
+}

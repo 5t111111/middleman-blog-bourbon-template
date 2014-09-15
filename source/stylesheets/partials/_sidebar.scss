@@ -1,0 +1,19 @@
+aside {
+
+  $sidebar-headline-font-size: 1em;
+  $sidebar-list-font-size: 0.9em;
+
+  fieldset {
+    margin: 24px 12px 0 12px;
+  }
+
+  h2 {
+    font-size: $sidebar-headline-font-size;
+    margin-bottom: 0.5em;
+  }
+
+  li {
+    margin-left: 0.5em;
+    font-size: $sidebar-list-font-size;
+  }
+}
