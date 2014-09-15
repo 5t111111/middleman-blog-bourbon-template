@@ -1,4 +1,4 @@
-# middleman-blog-slim-template
+# middleman-blog-bourbon-template
 
 This is a [middleman](http://middlemanapp.com) template styled with [Bourbon](http://bourbon.io), [Neat](http://neat.bourbon.io) and [Bitters](http://bitters.bourbon.io).
 
@@ -8,9 +8,9 @@ This is a [middleman](http://middlemanapp.com) template styled with [Bourbon](ht
 
 ## Features
 
-- [Slim](http://slim-lang.com) as template engine.
+- [Slim](http://slim-lang.com) as template engine
 - Syntax highlighting with [middleman-syntax](https://github.com/middleman/middleman-syntax) (using [rouge](https://github.com/jneen/rouge))
-- Responsive layout with Neat grid system.
+- Responsive layout with Neat grid system
 - Live reload with middleman-livereload
 
 ## Quickstart
