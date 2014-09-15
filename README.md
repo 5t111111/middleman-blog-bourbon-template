@@ -2,7 +2,7 @@
 
 This is a [middleman](http://middlemanapp.com) template styled with [Bourbon](http://bourbon.io), [Neat](http://neat.bourbon.io) and [Bitters](http://bitters.bourbon.io).
 
-## Screensshot
+## Screenshot
 
 ![screenshot.jpg](https://raw.githubusercontent.com/5t111111/middleman-blog-bourbon-template/master/screenshot.jpg)
 
