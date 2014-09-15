@@ -14,6 +14,10 @@ gem "slim", "~> 2.0.2"
 # Live-reloading plugin
 gem "middleman-livereload", "~> 3.1.0"
 
+# For Markdown
+gem "redcarpet", "~> 3.1.1"
+
+# Bourbon, Neat and Bitters
 gem "bourbon"
 gem "neat"
 gem "bitters"
