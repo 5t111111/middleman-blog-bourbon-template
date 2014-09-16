@@ -16,6 +16,12 @@ This is a [middleman](http://middlemanapp.com) template styled with [Bourbon](ht
 
 ## Quickstart
 
+Install Middleman if you haven't done yet.
+
+```console
+$ gem install middleman
+```
+
 ### Clone this template to your machine
 
 ```console
@@ -54,7 +60,18 @@ $ bundle exec middleman
 
 Open `http://localhost:4567` in a web browser.
 
+## Site configration
+
+Edit at least the following settings in config.rb.
+
+- :site_url
+  Your blog URL
+- :site_author
+  Author name of your blog
+- :site_title
+  Your blog title
+
 ## Thanks
 
-- This project is strongly inspired by [https://github.com/biblichor/middleman-blog-bootstrap-template](https://github.com/biblichor/middleman-blog-bootstrap-template)
-- [Styling a Middleman Blog with Bourbon, Neat, and Bitters](http://robots.thoughtbot.com/middleman-bourbon-walkthrough) written by Carolann Bonner also gives me a lot of help.
+- This project is strongly inspired by [middleman-blog-bootstrap-template](https://github.com/biblichor/middleman-blog-bootstrap-template)
+- The article [Styling a Middleman Blog with Bourbon, Neat, and Bitters](http://robots.thoughtbot.com/middleman-bourbon-walkthrough) also gives me a lot of help.
