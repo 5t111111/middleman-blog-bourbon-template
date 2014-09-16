@@ -34,4 +34,11 @@ article {
   .posted-date {
     padding-left: .5em;
   }
+
+  .read-more {
+    @include clearfix;
+    a {
+      float: right;
+    }
+  }
 }

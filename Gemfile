@@ -19,6 +19,9 @@ gem "middleman-livereload", "~> 3.1.0"
 # For Markdown
 gem "redcarpet", "~> 3.1.1"
 
+# For blog summary
+gem "nokogiri", "~> 1.6.1"
+
 # Bourbon, Neat and Bitters
 gem "bourbon"
 gem "neat"
