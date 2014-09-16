@@ -1,6 +1,6 @@
 # middleman-blog-bourbon-template
 
-This is a [middleman](http://middlemanapp.com) template styled with [Bourbon](http://bourbon.io), [Neat](http://neat.bourbon.io) and [Bitters](http://bitters.bourbon.io).
+This is a [Middleman](http://middlemanapp.com) template styled with [Bourbon](http://bourbon.io), [Neat](http://neat.bourbon.io) and [Bitters](http://bitters.bourbon.io).
 
 ## Screenshot
 
@@ -64,12 +64,9 @@ Open `http://localhost:4567` in a web browser.
 
 Edit at least the following settings in config.rb.
 
-- :site_url
-  Your blog URL
-- :site_author
-  Author name of your blog
-- :site_title
-  Your blog title
+- :site_url - Your blog URL
+- :site_author - Author name of your blog
+- :site_title - Your blog title
 
 ## Thanks
 
