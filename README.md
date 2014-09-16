@@ -60,7 +60,7 @@ $ bundle exec middleman
 
 Open `http://localhost:4567` in a web browser.
 
-## Site configration
+## Site configuration
 
 Edit at least the following settings in config.rb.
 
