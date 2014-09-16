@@ -11,11 +11,12 @@ This is a [middleman](http://middlemanapp.com) template styled with [Bourbon](ht
 - [Slim](http://slim-lang.com) as template engine
 - Syntax highlighting with [middleman-syntax](https://github.com/middleman/middleman-syntax) (using [rouge](https://github.com/jneen/rouge))
 - Responsive layout with Neat grid system
+- [Font Awesome](http://fortawesome.github.io/Font-Awesome) for easily adding social media link icon
 - Live reload with middleman-livereload
 
 ## Quickstart
 
-### Clone this tempalate to your machine
+### Clone this template to your machine
 
 ```console
 $ mkdir ~/.middleman # if it doesn't exist

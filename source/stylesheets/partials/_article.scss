@@ -32,9 +32,6 @@ article {
   }
 
   .posted-date {
-    $posted-date-image: "/images/time-glyph-icon.png";
-    @include background(url($posted-date-image), no-repeat);
-    background-repeat: no-repeat;
-    padding-left: 24px;
+    padding-left: .5em;
   }
 }
