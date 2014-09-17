@@ -39,3 +39,5 @@ Applies to all desktop and webfont files in the following directory: `source/fon
 Code License
 ------------
 Applies to all SASS files in the following directories: `source/stylesheets/vendor/font-awesome-4.2.0/`.
+
+- MIT License
