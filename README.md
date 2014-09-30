@@ -13,6 +13,7 @@ This is a [Middleman](http://middlemanapp.com) template styled with [Bourbon](ht
 - Responsive layout with Neat grid system
 - [Font Awesome](http://fortawesome.github.io/Font-Awesome) for easily adding social media link icon
 - Live reload with middleman-livereload
+- [Rails Assets](https://rails-assets.org) for assets management. 
 
 ## Quickstart
 
