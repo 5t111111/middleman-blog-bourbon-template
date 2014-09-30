@@ -2,27 +2,28 @@
 # the following line to use "https"
 source 'http://rubygems.org'
 
-gem "middleman", "~> 3.3.5"
-gem "middleman-blog", "~> 3.5.3"
+gem 'middleman', '~> 3.3.5'
+gem 'middleman-blog', '~> 3.5.3'
+
 # For syntax highlighting
 gem 'middleman-syntax', '~> 2.0.0'
 
+# Live-reloading plugin
+gem 'middleman-livereload', '~> 3.1.0'
+
 # For feed.xml.builder
-gem "builder", "~> 3.0"
+gem 'builder', '~> 3.0'
 
 # For using Slim template
-gem "slim", "~> 2.0.2"
-
-# Live-reloading plugin
-gem "middleman-livereload", "~> 3.1.0"
+gem 'slim', '~> 2.0.2'
 
 # For Markdown
-gem "redcarpet", "~> 3.1.1"
+gem 'redcarpet', '~> 3.1.1'
 
 # For blog summary
-gem "nokogiri", "~> 1.6.1"
+gem 'nokogiri', '~> 1.6.1'
 
 # Bourbon, Neat and Bitters
-gem "bourbon"
-gem "neat"
-gem "bitters"
+gem 'bourbon'
+gem 'neat'
+gem 'bitters'
