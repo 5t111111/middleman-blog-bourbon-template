@@ -22,22 +22,3 @@ THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING 
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
 DEALINGS IN THE SOFTWARE.
-
-
-Font Awesome
-===========================================================================
-
-This project also includes Font Awesome fonts and codes.
-
-Font License
-------------
-
-Applies to all desktop and webfont files in the following directory: `source/fonts`.
-
-- SIL OFL 1.1
-
-Code License
-------------
-Applies to all SASS files in the following directories: `source/stylesheets/vendor/font-awesome-4.2.0/`.
-
-- MIT License
